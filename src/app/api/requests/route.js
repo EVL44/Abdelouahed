@@ -1,15 +1,9 @@
-// src/app/api/requests/route.js
 
-// This is crucial for serverless functions that connect to a database.
-// It ensures the route is always run dynamically at request time.
 export const dynamic = 'force-dynamic';
 
 import { NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
 
-/**
- * Handles POST requests from your contact form to create a new request.
- */
 export async function POST(request) {
   try {
     const data = await request.json();

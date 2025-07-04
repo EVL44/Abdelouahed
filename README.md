@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Abdelouahed's Portfolio
 
-## Getting Started
+This is a personal portfolio website built with Next.js and Tailwind CSS. It showcases my skills, experience, and projects in a clean, modern, and interactive interface.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🎨 **Dynamic Theming**
+* **Light & Dark Mode:** The entire portfolio supports both light and dark themes.
+* **Theme Toggle:** Users can easily switch between themes using a dedicated toggle button in the header.
+* **System Preference:** The theme defaults to the user's system preference on their first visit.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
+### 📱 **Responsive & Animated UI**
+* **Fully Responsive:** The layout is designed to work seamlessly on all screen sizes, from mobile phones to desktops.
+* **Smooth Animations:** The portfolio uses Framer Motion to provide fluid page transitions and subtle animations that enhance the user experience.
+* **Interactive Elements:** Many elements, like buttons and social media icons, have hover effects and animations to provide visual feedback.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
+### 📄 **Core Pages**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### **Home**
+* **Introduction:** A welcoming section that introduces me and my area of expertise.
+* **Downloadable CV:** A prominent button allows visitors to download my CV with a single click.
+* **Social Links:** Easy access to my professional profiles on GitHub, LinkedIn, and other social media platforms.
+* **Animated Stats:** A statistics section with animated counters showcases key metrics like years of experience and projects completed.
 
-## Learn More
+#### **Services**
+* **Service Listings:** A dedicated page that outlines the services I offer, such as Web Development, IoT & Embedded Systems, and Cyber Security.
+* **Detailed Descriptions:** Each service has a description to provide more context about my capabilities.
 
-To learn more about Next.js, take a look at the following resources:
+#### **Resume**
+* **Tabbed Layout:** An interactive, tab-based interface allows users to easily navigate between my education, experience, and skills.
+* **Skills Showcase:** The skills tab features a grid of technologies I'm proficient in, complete with icons and tooltips for more information.
+* **About Me:** A section with more detailed personal information, including my nationality and languages spoken.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### **Contact**
+* **Contact Form:** A fully functional contact form that allows users to send me messages directly from the website.
+* **Service Selector:** The form includes a dropdown menu for users to specify which of my services they are interested in.
+* **Contact Info:** My phone number, email address, and physical address are displayed for alternative contact methods.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+### 🛠️ **Technology Stack**
+* **Framework:** [Next.js](https://nextjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **UI Components:** [shadcn/ui](https://ui.shadcn.com/) (using Radix UI)
+* **Animation:** [Framer Motion](https://www.framer.com/motion/)
+* **Database ORM:** [Prisma](https://www.prisma.io/)

@@ -15,7 +15,7 @@ export default function Home() {
               Computer Engineering and Embedded Systems Student
             </p>
             <div className="flex flex-col xl:flex-row gap-8">
-              <a target="_blank" href="https://drive.google.com/file/d/1uVCcKZR1RlH3Oz72QCuy4G2R07rC1-Wd/view?usp=sharing">
+              <a target="_blank" href="https://drive.google.com/file/d/12TchbzAfDiOJrE4wwQa88Em622q0pbEp/view?usp=drive_link">
                 <Button 
                   className="bg-accent text-surface-foreground font-bold rounded-full px-8 py-3 
                     hover:bg-accent hover:shadow-accent/50 hover:shadow-2xl 

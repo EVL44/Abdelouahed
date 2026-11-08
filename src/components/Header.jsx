@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className='py-8 xl:py-12 bg-surface-foreground text-surface'>
       <div className='container mx-auto flex items-center justify-between'>
-        <Link target='_blank' href='https://www.youtube.com/@EVL.44'> <h1 className='font-extrabold text-xl group'>EVL<span className='text-accent group-hover:text-destructive transition-all duration-500'>44</span></h1> </Link>
+        <Link target='_blank' href='/'> <h1 className='font-extrabold text-xl group'>EVL<span className='text-accent group-hover:text-destructive transition-all duration-500'>44</span></h1> </Link>
 
         {/* PC */}
         <div className="hidden xl:flex items-center gap-8">

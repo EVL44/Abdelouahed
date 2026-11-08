@@ -22,7 +22,7 @@ This is a personal portfolio website built with Next.js and Tailwind CSS. It sho
 * **Introduction:** A welcoming section that introduces me and my area of expertise.
 * **Downloadable CV:** A prominent button allows visitors to download my CV with a single click.
 * **Social Links:** Easy access to my professional profiles on GitHub, LinkedIn, and other social media platforms.
-* **Animated Stats:** A statistics section with animated counters showcases key metrics like years of experience and projects completed.
+* **Animated Stats:** A statistics section with animated counters showcases key metrics like years of experience and projects completed. 
 
 #### **Services**
 * **Service Listings:** A dedicated page that outlines the services I offer, such as Web Development, IoT & Embedded Systems, and Cyber Security.
